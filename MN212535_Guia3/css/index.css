@@ -1,0 +1,25 @@
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200604/pngtree-abstract-polygonal-space-low-poly-dark-background-with-connecting-dots-and-image_337931.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#menu{
+    background-color:black ;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 73.45px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+     background-color: #42BBB1;
+}

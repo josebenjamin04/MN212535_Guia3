@@ -1,0 +1,79 @@
+html{
+	font-size: 20px;
+}
+#menu{
+    background-color:black ;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 73.45px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+     background-color: #42BBB1;
+}
+
+body{
+	color: #fcfcfc;
+	background-color: #355664;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-size: 2rem;
+}
+h2{
+	font-size: 1.2rem;
+}
+h3{
+	font-size: 1rem;
+}
+footer{
+	background-color: black;
+	color: white;
+	font-size: 0.7rem;
+	margin-top: 20px;
+	padding: 5px;
+	text-align: center;
+}
+div.wrapper{
+	margin: 0 auto;
+	width: 80%;
+}
+section article{
+	background-color: rgb(33, 62, 74,1);
+	margin-top: 20px;
+	padding: 12px;
+	font-size: 0.8rem;
+	text-align: justify;
+}
+nav span a{
+	background-color: white;
+	border-right: 1px solid;
+	color: black;
+	font-size: 0.6rem;
+	float: left;
+	padding: 10px;
+	text-decoration: underline;
+}
+nav span a:hover{
+	background-color: #B2DFDB
+}
+a[href="http://www.sensacine.com/peliculas/pelicula-175305/reparto"] {
+  background-color: #9E9E9E;
+}
+p:first-letter{
+	font-size: 1.5rem;
+	color: #FFE933;
+}
+article:first-child p:first-line{
+	text-decoration: underline;
+}

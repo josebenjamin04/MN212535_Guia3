@@ -1,0 +1,58 @@
+nav{
+    z-index: 1;
+}
+#menu{
+    background-color:black ;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 73.45px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+     background-color: #42BBB1;
+}
+body{
+    background-image: url("https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2015/03/patron-geometrico-gratis.jpg?resize=600%2C370&quality=100&strip=all&ssl=1");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header{
+    text-align: center;
+}
+img{
+    width: 35%;
+    border-radius: 15%;
+    margin-left: 5%;
+    margin-top:1.9%;
+}
+h1 h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 150px;
+}
+section{
+    background-image: url(https://i.pinimg.com/236x/70/ad/45/70ad45d88855694c3b44dc9a1b17f946.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10%;
+    height: 28em;
+    
+}
+p{
+    margin-left: 45%;
+    margin-right: 9%;
+    margin-top: -25%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 122%;
+}

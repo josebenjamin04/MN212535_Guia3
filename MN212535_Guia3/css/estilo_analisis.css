@@ -1,0 +1,49 @@
+#titulo{
+	color: teal;
+}
+#menu{
+    background-color:black ;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 73.45px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+     background-color: #42BBB1;
+}
+
+#subtitulo{
+	color: blue;
+}
+#adicional{
+	color: olive;
+}
+strong{
+	color: red;
+	
+}
+.destacado{
+	color: orange;
+}
+a{
+	color: red;
+}
+#especial{
+	color: fuchsia;
+}
+#color{
+	color: green;
+}
+.especial{
+	color: purple;
+}

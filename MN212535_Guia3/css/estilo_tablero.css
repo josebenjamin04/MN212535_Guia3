@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+}
+#menu{
+    background-color:black ;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 73.45px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+     background-color: #42BBB1;
+}
+body{
+	background-color: steelblue;
+	color:#EEE;
+	font-family: sans-serif;
+	text-align: center;
+}
+#tablero{
+	background-color: white;
+	height: 400px;
+	width: 400px;
+	margin: auto;
+}
+#tablero p{
+	background-color: black;
+	color:white;
+	float:left;
+	font-size: 36px;
+	height: 50px;
+	width: 50px;
+	vertical-align: center;
+}
+#tablero .filaImpar p:nth-child(2n+1){
+	background-color: white;
+}
+#tablero .filaPar p:nth-child(2n+2){
+	background-color: white;
+}
